@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/watch_event_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Смотреть события" />
+
+    <Button
+        android:id="@+id/create_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать событие" />
+
+    <Button
+        android:id="@+id/my_events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои события" />
+
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мой профиль" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВЫХОД" />
+
+
+
+
+</LinearLayout>
